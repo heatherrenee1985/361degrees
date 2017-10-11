@@ -1,0 +1,13 @@
+{.section item}
+	<div class="video-title sqs-col-5">
+		<h1>{title}</h1>
+		<p>{body}</p>
+	</div>
+	<div class="video-item sqs-col-6">
+		{structuredContent.oembed.html}
+	</div>
+{.end}
+
+<div id="latest_news">
+  <squarespace:block-field id="latestNews" columns="12" label="Latest News" />
+</div>

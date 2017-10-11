@@ -1,0 +1,100 @@
+<div class="knowledge-hub-block">
+	
+	<ol class="category-filter">
+	</ol>
+	
+	<div class="featured-list">
+		<ol class="case-study-list blog-list video-list">
+			<squarespace:query collection="resources/news" limit="6" featured="true">	
+				{.repeated section items}
+					<li class="blog-item" data-categories="{categories}">
+						<a href="{fullUrl}">
+							<h1>{title}</h1>
+							<div class="background" style="background-image:url({assetUrl})"></div>
+						</a>
+					</li>
+				{.end}
+			</squarespace:query>
+			<squarespace:query collection="resources/case-studies" limit="6" featured="true">	
+				{.repeated section items}
+					<li class="case-study-item" data-categories="{categories}">
+						<a href="{fullUrl}">
+							<h1>{title}</h1>
+							<div class="background" style="background-image:url({assetUrl})"></div>
+						</a>
+					</li>
+				{.end}
+			</squarespace:query>
+			<squarespace:query collection="resources/videos" limit="6" category="Featured">	
+				{.repeated section items}
+					<li class="video-item" data-categories="{categories}">
+						<a href="{fullUrl}">
+							<h1>{title}</h1>
+							<div class="background" style="background-image:url({assetUrl})"></div>
+						</a>
+					</li>
+				{.end}
+			</squarespace:query>
+		</ol>
+
+	</div>
+
+	<div class="title-list">
+		<ul class="type-list">
+			<li class="blog selected">News</li>
+			<li class="case">Case Studies</li>
+			<li class="video">Video</li>
+		</ul>
+		<div class="blog-listing title-listing selected">
+			<ul class="blog-list">
+				<squarespace:query collection="resources/news" limit="30">
+					{.repeated section items}
+					<li data-categories="{categories}">
+						<article class="video-item">
+							<a href="{fullUrl}">
+								<h3>{title}</h3>
+							</a>
+						</article>
+					</li>
+					{.end}
+				</squarespace:query>
+			</ul>
+			<h4><a href="/blog"> Read More </a></h4>
+		</div>
+		<div class="case-study-listing title-listing">
+			<ul class="case-study-list">
+			<squarespace:query collection="resources/case-studies" limit="30">
+				{.repeated section items}
+					<li data-categories="{categories}">
+						<article class="video-item">
+							<a href="{fullUrl}">
+								<h3>{title}</h3>
+							</a>
+						</article>
+					</li>
+				{.end}
+			</squarespace:query>
+			</ul>
+			<h4><a href="/case-studies"> Read More </a></h4>
+		</div>
+		<div class="video-listing title-listing">
+			<ul class="video-list">
+			<squarespace:query collection="resources/videos" limit="30">
+				{.repeated section items}
+					<li data-categories="{categories}">
+						<article class="video-item">
+							<a href="{fullUrl}">
+								<h3>{title}</h3>
+							</a>
+						</article>
+					</li>
+				{.end}
+			</squarespace:query>
+			</ul>
+			<h4><a href="/video"> Read More </a></h4>
+		</div>
+		
+	</div>
+
+
+</div>
