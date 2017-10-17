@@ -5,7 +5,7 @@
 {.end}
 
 
-  <div class="content-hub-block">
+  <!-- <div class="content-hub-block">
    <h2><a href="/knowledge-hub/"> Further your knowledge </a></h2>
    <ol class="blog-list case-study-list">
     <squarespace:query collection="resources/news" limit="3">
@@ -31,4 +31,4 @@
       {.end}
     </squarespace:query>
     </ol>
-  </div>
+  </div> -->

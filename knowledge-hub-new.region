@@ -3,7 +3,7 @@
 	<ol class="category-filter">
 	</ol>
 	
-	<div class="featured-list">
+	<!-- <div class="featured-list">
 		<ol class="case-study-list blog-list video-list">
 			<squarespace:query collection="resources/news" limit="6" featured="true">	
 				{.repeated section items}
@@ -37,9 +37,9 @@
 			</squarespace:query>
 		</ol>
 
-	</div>
+	</div> -->
 
-	<div class="title-list">
+	<!-- <div class="title-list">
 		<ul class="type-list">
 			<li class="blog selected">News</li>
 			<li class="case">Case Studies</li>
@@ -94,7 +94,7 @@
 			<h4><a href="/video"> Read More </a></h4>
 		</div>
 		
-	</div>
+	</div> -->
 
 
 </div>
