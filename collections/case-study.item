@@ -1,5 +1,0 @@
-{.section item}
-	<div class="case-study-item">
-		{body}
-	</div>
-{.end}
