@@ -140,7 +140,7 @@ body {
 			max-width: 400px;
 		}
 		.button.sqs-system-button.sqs-editable-button {
-			background: @color361 !important; 
+			background: @color361 !important;
 		}
 	}
 }
@@ -411,7 +411,12 @@ blockquote::after, .quote-block blockquote::after, .sqs-block-quote  blockquote:
     font-weight: 500;
 		position: relative;
 		text-transform: uppercase;
-    letter-spacing: 2px;
+		letter-spacing: 2px;
+
+		a {
+			font-weight: 500;
+			color: rgba(26,26,26,.7);
+		}
 		&:after {
 			content: '';
 			height: 5px;
@@ -1321,7 +1326,7 @@ div.contact-form-cta {
 		//color: rgba(26, 26, 26, .7) !important;
 		&:first-letter {
 			color: @color361;
-			
+
 		}
 	}
 	h3 + p {
