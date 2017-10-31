@@ -44,9 +44,6 @@
             {.end}
             <div class="desc-wrapper" data-collection-id="{id}">
               <h1>{title}</h1>
-              {.if description}
-                {description}
-              {.end}
             </div>
           </div>
           {.end}
