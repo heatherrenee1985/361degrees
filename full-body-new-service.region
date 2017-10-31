@@ -26,11 +26,7 @@
   {.end}
 </main>
 
-<div id="latest_news">
-  <squarespace:block-field id="latestNews" columns="12" label="Latest News" />
-</div>
-
 <div class="full-form contact-form-cta green">
   <a name="contact"></a> 
-  <a class="btn" href="/new-contact-us">Get in touch</a>
+  <a class="btn" href="/contact-us">Get in touch</a>
 </div>
