@@ -29,7 +29,7 @@
 	<squarespace:query collection="{.section collection}{urlId}{.end}" limit="3">
 			<div class="featured-wrapper new-case-study">
 				{.repeated section items}
-				<a href="{url}">
+				<a href="{fullUrl}">
 					<div class="featured-post">
 						{.main-image?}<img {@|image-meta} />{.end}
 						<div class="title-wrapper">
